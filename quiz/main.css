@@ -1,0 +1,39 @@
+html{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	margin: 0;
+}
+
+*{
+	font-family: monospace;
+}
+
+.quiz {
+	text-align: center;
+	padding: 1rem;
+	border: 1px solid #ccc;
+}
+
+.pergunta{
+	/* border: 1px solid #ccc; */
+	margin-block-start: 0px;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.alternativas{
+	display: flex;
+	gap:  1rem;
+}
+
+.alternativas>button{
+	flex: 1;
+	text-align: center;
+	font-size: 1em;
+	padding: 8px 18px;
+}
